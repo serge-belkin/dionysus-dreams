@@ -1,0 +1,38 @@
+.body {font-family: 'Cousine', monospace; 
+background-color: #ECDAD0;
+width: 1200px;
+    margin: 0 auto;
+display: flex;
+align-content: center;}
+
+.release {width: 600px;
+margin-left: 300px;}
+
+.artist {width: 450px;
+font-style: italic;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: #373A4B;
+margin-top: 50px;
+margin-bottom: 10px;}
+
+.album, .service {font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    color: #373A4B;
+width: 450px;}
+
+.album {margin-bottom: 30px;}
+    
+.cover {width: 450px;
+    margin-bottom: 10px;
+}
+
+.list-item {color: purple;
+margin-left: 100px;}
+
+.service {}
