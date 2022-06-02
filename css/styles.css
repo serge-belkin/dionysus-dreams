@@ -6,7 +6,7 @@ display: flex;
 align-content: center;}
 
 .release {width: 600px;
-margin-left: 300px;}
+margin: 0 auto;}
 
 .artist {width: 450px;
 font-style: italic;
@@ -35,4 +35,10 @@ width: 450px;}
 .list-item {color: purple;
 margin-left: 100px;}
 
-.service {}
+.service {
+    text-decoration: none;
+}
+.service:hover {color: purple;}
+.service:focus {
+        color: purple;
+    }
