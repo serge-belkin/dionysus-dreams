@@ -1,12 +1,18 @@
 body {font-family: 'Cousine', monospace; 
 background-color: #ECDAD0;}
 
+img {
+    max-width: 100%;
+    height: auto;
+content: ;
+}
 
 .release,
 .lyrics {
 text-align: center;
 margin: 0 auto;
 }
+
 
 .artist,{
 font-style: italic;
