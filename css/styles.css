@@ -30,6 +30,8 @@ margin-bottom: 10px;}
     font-size: 24px;
     line-height: 27px;
     color: #373A4B;
+    position: relative;
+    display: block;
 }
 
 .text {
@@ -51,7 +53,7 @@ color: #373A4B;
 }
 
 .list {
-width: 200px;
+width: 250px;
 margin: 0 auto;
 }
 
@@ -92,3 +94,8 @@ font-weight: 400;
 .text:focus,
 .service:hover,
 .service:focus {color: purple;}
+
+.service {
+    padding-bottom: 15px;
+}
+
